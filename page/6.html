@@ -1,0 +1,15 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+    <head>
+        <meta charset="utf-8">
+        <title>保护自己的网页不被放入框架</title>
+        <Script LANGUAGE="JavaScript">
+            if(self!=top){
+            top.location=self.location;    //判断是否是最顶层，不是则将当前页设置为最顶层
+            }
+        </script>
+    </head>
+    <body>
+        随着网络信息的传播，很多网站不再具备自己的内容，而是使用框架。<br />
+        加载其他网站的内容，如果不允许网页被他人加载，可以使用本例提供的方法。
+    </body>
+</html>
