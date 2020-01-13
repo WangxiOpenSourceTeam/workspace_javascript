@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>动态创建按钮</title>
+</head>
+<body>
+    <input type="button" onclick="addInput();" value="创建按钮">
+    <script language="javascript">
+        var i=0 ;
+        function addInput(){
+            var button = document.createElement("input");
+            button.type = "button" ;
+            button.value = "按钮" + i++ ;
+            button.addEventListener("onclick",addInput);
+            document.body.appendChild(button);
+            o = null;
+        }
+    </script>
+</body>
+</html>
