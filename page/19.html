@@ -1,12 +1,13 @@
-<html xmlns="http://www.w3.org/1999/xhtml" >
-<head>
-<title>在网页中动态添加Script脚本</title>
-<script>
-    o=document.createElement("script");         //动态创建script元素
-    o.text="alert('test!')";                    //输出语句。。是脚本中的代码
-    document.documentElement.childNodes[0].appendChild(o);//将脚本添加到页面中
-</script>
-</head>
-<body>
-</body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>在网页中动态添加Script脚本</title>
+        <script>
+            o=document.createElement("script");         //动态创建script元素
+            o.text="alert('test!')";                    //输出语句。。是脚本中的代码
+            document.documentElement.childNodes[0].appendChild(o);//将脚本添加到页面中
+        </script>
+    </head>
+    <body>
+    </body>
 </html>
