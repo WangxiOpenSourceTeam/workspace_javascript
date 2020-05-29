@@ -28,3 +28,4 @@
     3. [动态创建按钮](./button/3.html)
     4. [平面按钮](./button/4.html)
     5. [按钮的嵌入效果](./button/5.html)
+    6. [按钮改变状态栏信息](./button/6.html)
